@@ -18,22 +18,22 @@ btn.addEventListener('submit', function(event){
         object.push(userName.value)
         console.log(object);
     }else {
-        console.log(' Wronge UserName  ');
+        console.log('  please try valid UserName  ');
     }
     if(emailRegex.test(email.value)){
         console.log(email.value);
     }else {
-        console.log(' WrongeEmial  ');
+        console.log('  please try valid Emial  ');
     }
     if(nicRegex.test(nicNumber.value)){
         console.log(nicNumber.value); 
     }else {
-        console.log(' Wronge NIC');
+        console.log('  please try valid NIC');
     }
     if(passwordRegex.test(password.value)){
         console.log(password.value);
     }else {
-        console.log(' Wronge Password');
+        console.log('  please try valid Password');
     }
     
     userName.value = ''
