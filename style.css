@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+;
+}
+    
+#btn{
+    border: 4px solid black;
+    margin:  50px 200px 50px 200px;
+    background-color: rgb(138, 138, 231)
+}
+.user{
+margin-top: 20px;
+}
+.mail{
+    margin-top: 20px;
+}
+.nic{
+    margin-top: 20px;
+}
+.pass{
+    margin-top: 20px;
+}
