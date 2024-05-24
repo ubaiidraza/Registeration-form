@@ -9,14 +9,14 @@ const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 const nicRegex = /^42\d{11}$/
 const passwordRegex = /^[a-zA-Z0-9!@#$%^&*()_+]{8,15}$/
 
-let object;
+
 
 btn.addEventListener('submit', function(event){
     event.preventDefault()
     if(regex.test(userName.value)){
         console.log(userName.value);
-        object.push(userName.value)
-        console.log(object);
+        
+       
     }else {
         console.log('  please try valid UserName  ');
     }
@@ -36,8 +36,5 @@ btn.addEventListener('submit', function(event){
         console.log('  please try valid Password');
     }
     
-    userName.value = ''
-    email.value = ''
-    password.value = ''
-    nicNumber.value = ''
+   
 })
